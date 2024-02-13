@@ -1,0 +1,20 @@
+#append() function to push
+#element in the my_stack
+my_stack = []
+my_stack.append('x')
+my_stack.append('y')
+my_stack.append('z')
+
+Print(my_stack)
+
+#pop() function to pop
+#element from my_stack in
+#LIFO order
+
+Print("\nElements popped from my_stack:")
+Print(my_stack.pop())
+Print(my_stack.pop())
+Print(my_stack.pop())
+
+Print("\nmy_stack after elements are poped:")
+Print(my_stack)
